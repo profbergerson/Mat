@@ -38,6 +38,7 @@
 .lista-menu__titulo,
 .lista-menu__item {
     color: var(--laranja);
+    font-weight: 700;
     padding: 1em;
     background-color: var(--branco);
 }
@@ -48,5 +49,9 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-transform: uppercase;
+}
+
+.container__botao {
+    display: none;
 }
 
